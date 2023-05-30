@@ -1,0 +1,91 @@
+#softuni-login-form{
+    width: 350px;
+    height: 310px;
+    background-color: #e6dccf !important;
+    font-family: tahoma;
+    margin: auto;
+    margin-top: 3%;
+    padding: 6%;
+    background-color:#dcc7be ;
+    box-shadow: 10px 20px 30px rgb(206, 197, 188);
+    border-radius: 80px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+header h3{
+    color:black;
+    font-size:x-large;
+} 
+header p{
+    font-size:75% ;
+}
+
+form{
+    width:350px;
+    height:213px;
+    padding-top:10px;
+    color:#5F5F5F;
+    float:left;
+}
+
+.form-header{
+    font-weight: bold;
+    margin-left:10px;
+    font-variant: small-caps;
+    font-size: 80%;
+
+}
+#reg{
+    color:black;
+}
+.input-text{
+    width:90%;
+    padding: 8px;
+    margin-top:10px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border:1px solid #234465;
+}
+
+#reg-button{
+    background-color:#234038;
+    border-radius: 10px;
+    padding:5px;
+    color:#dcc7be;
+}
+
+#login-form{
+background-color: #234465;
+color:black;
+}
+
+#login-form .input-text{
+border: 4px solid red;
+margin-left:10px ;
+margin-right: 8px;
+margin-top:8px;
+}
+
+#remember{
+    display: inline;
+    font-size:80%;
+    margin-left: 10px;
+}
+#login-button{
+    background-color:#234465;
+    border:2px solid #FD9B01 ;
+    color:black;
+    padding:4px 22px;
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+#forgot-pass{
+    float:right;
+    margin-right: 12px;
+    font-size:70%;
+    color:black;
+}

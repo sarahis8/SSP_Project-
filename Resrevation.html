@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.jpeg" type="image/gif">
+    <link href="css/Reservation.css" rel="stylesheet" type="text/css"/>
+
+    <title>Reservation page</title>
+</head>
+<body>
+<br>
+<div id="softuni-login-form">
+    <h1>Reserve a seat?</h1>
+    <form action="CheckAccount.php" method="post">
+        <input type="text" name="userEmail" placeholder="Enter your email" required><br>
+        <input type="password" name="userPassword" placeholder="Enter your password" required ><br>
+        <input type="date" name="time" required>
+        
+        <input type="submit" name="submitButton"  value="Reserve" id="res-btn">
+    </form>
+    <br/>
+        <a href="CreateAccount.html">Don't Have an account yet? Create One!</a>
+
+</div>
+<br>
+<hr>
+    <p><button  onclick=load()>Go to Home page</button></p>
+        
+        <script src="../project/js/jquery-min.js"></script>
+        <script src="../project/js/HomePage.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+#softuni-login-form{
+    width: 350px;
+    height: 310px;
+    font-family: tahoma;
+    margin: auto;
+    margin-top: 3%;
+    padding: 3%;
+    background-color:#dcc7be ;
+    box-shadow: 10px 20px 30px rgb(206, 197, 188);
+    border-radius: 80px;
+    text-align: center;
+}
+
+
+form h1{
+    color:black;
+    font-size:x-large;
+} 
+form{
+    width:350px;
+    height:213px;
+    padding-top:10px;
+    color:#5F5F5F;
+}
+
+input{
+    width:90%;
+    padding: 8px;
+    margin-top:10px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border:1px solid #234465;
+}
+
+#res-btn{
+    background-color:#234038;
+    border-radius: 10px;
+    padding:8px;
+    width: 200px;
+    margin-top: 15px;
+    color:#dcc7be;
+}

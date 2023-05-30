@@ -1,0 +1,86 @@
+#softuni-login-form{
+    width: 350px;
+    height: 310px;
+    background-color: #FD9B01 !important;
+    font-family: tahoma;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+/* 
+header h3{
+    color:#1C3E60;
+} */
+header p{
+    font-size:75% ;
+}
+
+form{
+    width:350px;
+    height:213px;
+    padding-top:10px;
+    color:#5F5F5F;
+    float:left;
+}
+
+.form-header{
+    font-weight: bold;
+    margin-left:10px;
+    font-variant: small-caps;
+    font-size: 80%;
+
+}
+#reg{
+    color:#1C3E60;
+}
+
+.input-text{
+    width:97.5%;
+    height: 11%;
+    margin-top:10px;
+}
+
+#reg-button{
+    border: 2px solid #264767;
+    height: 13%;
+    width: 45%;
+    color: #264767;
+    margin-right: 10px;
+    margin-top:10px;
+    float:right;
+}
+
+#login-form{
+background-color: #234465;
+color:black;
+}
+
+#login-form .input-text{
+border: 4px solid red;
+margin-left:10px ;
+margin-right: 8px;
+margin-top:8px;
+}
+
+#remember{
+    display: inline;
+    font-size:80%;
+    margin-left: 10px;
+}
+#login-button{
+    background-color:#234465;
+    border:2px solid #FD9B01 ;
+    color:black;
+    padding:4px 22px;
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+#forgot-pass{
+    float:right;
+    margin-right: 12px;
+    font-size:70%;
+    color:black;
+}

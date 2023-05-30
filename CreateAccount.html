@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ 
+    <link href="css/form.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+     <link href="css/CreateAccount.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="images/logo.jpeg" type="image/gif">
+    
+
+    <title>Create Account</title>
+</head>
+<body>
+    <div id="softuni-login-form">
+        <header>
+            <h3>Create Account</h3>
+            <p>You have to Create an account in order to reserve online</p>
+        </header>
+
+          <form method="post" action="CreateAccount.php" >
+           <span class="form-header">Are you new? <span id="reg">Register</span></span>
+           <br><input type="text" placeholder="User Name" required class="input-text" name="user_name">
+           <br><input type="email" placeholder="Email" required class="input-text" name="user_email">
+           <br><input type="password" placeholder="password" required class="input-text" name="user_password" pattern = ".{10,15}" title="Must Be between 10 or 15 characters">
+           
+           <br><input type="submit" value="Register" id="reg-button">
+           </form> 
+           
+   
+    </div>
+    <br>
+    <br>
+    <hr>
+    <script src="../project/js/HomePage.js"></script>
+    <script src="../project/js/jquery-min.js"></script>
+    <p><button  onclick=load()>Go to Home page</button></p>
+    
+</body>
+</html>
